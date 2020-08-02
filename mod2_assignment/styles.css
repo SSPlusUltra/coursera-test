@@ -1,0 +1,93 @@
+.box{
+  border:2px solid black;
+  margin:15px;
+  padding: 10px;
+  background-color:grey;
+  position: relative;
+  text-shadow: black;
+}
+ 
+.content-name{
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top:0; 
+  border:2px solid black;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  width: 100px
+  
+}
+
+.content{
+  margin-top: 30px;
+}
+
+h1{
+  text-align: center;
+  color:solid black;
+  margin-bottom: 50px;
+}
+
+.name1{
+  background-color:#FFB6C1;
+}
+
+.name2{
+  color: white;
+  background-color: #FF0000;
+
+}
+.name3{
+  border-color: #FFFF00;
+  background-color: yellow;
+  border:2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    margin-left: -10px;
+    width: 100%;
+  }
+  .name3{
+    width: 100px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+  .content-name{
+  }
+}
